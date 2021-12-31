@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "927302760247",
+    "project_id": "pruebafyg",
+    "storage_bucket": "pruebafyg.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:927302760247:android:1dbe61bf7d76ee04d10cb2",
+        "android_client_info": {
+          "package_name": "com.pruebafyg.catalogo_productos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "927302760247-ragdl5u74gef3kbfur4vq5h3pge7ajoj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pruebafyg.catalogo_productos",
+            "certificate_hash": "190efeaece02e009426a00dc1475603f03f4abaa"
+          }
+        },
+        {
+          "client_id": "927302760247-i7j9frqui86gh1lmgkr659cr24eelbsm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgfjHtcL_eJm1F1h0MCYAi5dkRq-xBvTs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "927302760247-i7j9frqui86gh1lmgkr659cr24eelbsm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
