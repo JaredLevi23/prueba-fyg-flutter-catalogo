@@ -11,5 +11,10 @@ Este repositorio tiene todo el codigo fuente para ejecutar una aplicación movil
 en el se necesita reemplazar la direccion IP y el puerto por la de la maquina que
 este ejecutando el servidor.
 
+- Si hay errores al cargar el proyecto, dentro de la carpeta del proyecto ejecuta el comando
+    > flutter run
+    
+    Para cargar los paquetedes del pubspec.yaml
+
 Eso seria todo!! Puedes compilar la aplicación
 
