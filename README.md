@@ -5,7 +5,7 @@ Este repositorio tiene todo el codigo fuente para ejecutar una aplicación movil
 ## Requisitos
 
 - Antes de compilar y ejecutar, levantar el servidor de Node, es el del siguiente enlance. 
-    > Enlace del repo
+    > https://github.com/JaredLevi23/prueba-fyg-server
 
 - Dentro del proyecto hay un archivo llamado env.dart en /lib/src/env.dart ,
 en el se necesita reemplazar la direccion IP y el puerto por la de la maquina que
