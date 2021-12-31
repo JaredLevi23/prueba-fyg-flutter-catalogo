@@ -52,7 +52,7 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
 
     // Preparamos el provider y las preferemcias de usuario
-    final productSocket = Provider.of<ProductsSocketService>(context);
+    final productSocket = Provider.of<ProductsSocketService>(context);// Instancia de provider 
     final prefs = UserPreferences(); //singleton ( Preferencias de usuario )
 
     return Scaffold(

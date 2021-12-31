@@ -46,7 +46,7 @@ class CustomCardItem extends StatelessWidget {
 
       onTap: (){
         
-        final productService = Provider.of<ProductsSocketService>(context, listen: false); //  Llama al product socket service
+        final productService = Provider.of<ProductsSocketService>(context, listen: false); // Instancia de provider sin escuchar cambios
         productService.selectedProduct = producto.copy(); // Se pasa el producto seleccionado para editar o eliminar
 
         showDialog(context: context, builder: (context){

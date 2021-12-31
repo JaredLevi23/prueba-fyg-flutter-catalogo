@@ -21,7 +21,7 @@ class CreateScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final productService = Provider.of<ProductsSocketService>(context);
+    final productService = Provider.of<ProductsSocketService>(context);// Instancia de provider 
 
     return Scaffold(
       appBar: AppBar(
@@ -36,7 +36,7 @@ class CreateScreen extends StatelessWidget {
           const SizedBox(height: 10,),
           Center(
             child: Text(
-                productService.selectedProduct.id == ''
+                productService.selectedProduct.id == '' //Ternario para poner un titulo
                     ? 'Nuevo producto'
                     : 'Editando'
             , style: const TextStyle(fontSize: 20)),
@@ -45,7 +45,9 @@ class CreateScreen extends StatelessWidget {
 
           // Muestra el id del producto que seleccionamos o estamos creando
           Center(
-              child: Text('ID: ${productService.selectedProduct.id == '' ? 'Sin asignar' : productService.selectedProduct.id}')
+              child: Text(
+                'ID: ${productService.selectedProduct.id == '' ? 'Sin asignar' : productService.selectedProduct.id}'
+              )
           ),
 
           const CustomDropDownMenu(), // Lista desplegable de tipo de producto
@@ -106,7 +108,7 @@ class CreateScreen extends StatelessWidget {
                     }
 
                     // Se usa el provider del product_socket_service
-                    final productSocket = Provider.of<ProductsSocketService>(context,listen: false); // false por que esta dentro de una funcion
+                    final productSocket = Provider.of<ProductsSocketService>(context,listen: false); // Instancia de provider, listen false por que esta dentro de una funcion
 
                     // Si el id esta vacio entonces se esta creando un producto
                     if(productService.selectedProduct.id == '' ){

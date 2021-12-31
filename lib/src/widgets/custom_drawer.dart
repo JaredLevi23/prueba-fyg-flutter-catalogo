@@ -18,7 +18,7 @@ class CustomDrawer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     
-    final productSocket = Provider.of<ProductsSocketService>(context); // Llamamos al provider ProductScoket
+    final productSocket = Provider.of<ProductsSocketService>(context); // Instancia de provider 
     
     return Drawer(
       child: DrawerHeader(
