@@ -17,6 +17,10 @@ Este repositorio tiene todo el codigo fuente para ejecutar una aplicación movil
 Eso sería todo!! Puedes compilar la aplicación.
 
 ## Funcionamiento
+![Image text](https://github.com/JaredLevi23/prueba-fyg-flutter-catalogo/blob/main/assets/Sc0.jpeg)
+![Image text](https://github.com/JaredLevi23/prueba-fyg-flutter-catalogo/blob/main/assets/Sc1.jpeg)
+![Image text](https://github.com/JaredLevi23/prueba-fyg-flutter-catalogo/blob/main/assets/Sc2.jpeg)
+![Image text](https://github.com/JaredLevi23/prueba-fyg-flutter-catalogo/blob/main/assets/Sc3.jpeg)
 
 
 
