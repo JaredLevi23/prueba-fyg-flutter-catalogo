@@ -20,7 +20,7 @@ class Validator{
 
   bool isNumber(String value){
     //Expresion regular de un numero con decimales valido
-    String pattern = r'^[0-9]+([.][0-9]+)?$';
+    String pattern = r'^[$]+[0-9]+([.][0-9]+)?$';
     RegExp regExp  = RegExp(pattern);// Clase de expresiones regulares
 
     if( regExp.hasMatch(value)){ //Si esta bien construido

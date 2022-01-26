@@ -16,4 +16,7 @@ Este repositorio tiene todo el codigo fuente para ejecutar una aplicación movil
 
 Eso sería todo!! Puedes compilar la aplicación.
 
+## Funcionamiento
+
+
 
